@@ -1,5 +1,7 @@
 # This calculator finds the HCF of any given numbers.
 # Made by Coder2011-ALT In Dec 2022
+# Importing library
+import time
 # Defining variables
 divisibilityList1 = []
 divisibilityList2 = []
@@ -32,4 +34,5 @@ if hcf != 1:
     print(f"The HCF of {num1} and {num2} is- \n{hcf}")
 else:
     print(f"{num1} and {num2} are coprimes.")
+time.sleep(0.5)
 print("Thank you!")
