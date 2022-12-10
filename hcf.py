@@ -34,5 +34,7 @@ if hcf != 1:
     print(f"The HCF of {num1} and {num2} is- \n{hcf}")
 else:
     print(f"{num1} and {num2} are coprimes.")
+
+# Time break between Thank you message
 time.sleep(0.5)
 print("Thank you!")

@@ -32,5 +32,7 @@ for k in multiples1:
 lcm = min(cm)
 
 print(f"The LCM of {num1} and {num2} is -\n{lcm}")
+
+# Time break between Thank you message
 time.sleep(0.5)
 print("Thank you!")

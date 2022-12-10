@@ -1,6 +1,9 @@
 # This calculator finds the factors of the number.
 # Made by Coder2011-ALT In 2022
 
+# Importing library
+import time
+
 # Defining variables
 divisibilityList = []
 num = int(input("Write the number of which you want to check divisibility of-\n"))
@@ -25,4 +28,7 @@ elif factors < 2:
 for j in divisibilityList:
     print(f"{j}",end=",")
 print(f" are the factors of {num}")
+
+# Time break between Thank you message
+time.sleep(0.5)
 print("Thank you!")
