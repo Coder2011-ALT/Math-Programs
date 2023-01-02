@@ -14,7 +14,6 @@ num4 = 0
 print("This is a proportion calculator")
 
 # Taking input from the user
-
 print((f"Write in the format-\n num1:num2 num3:num4"))
 
 num1 = int(input("Write the num1-\n"))
